@@ -15,6 +15,9 @@ dependencies = [
 [dependency-groups]
 dev = [
     "db-models",
+    "psycopg[binary]>=3.2.12",
+    "pytest>=8.4.2",
+    "python-dotenv>=1.2.1",
 ]
 
 [tool.uv.sources]
